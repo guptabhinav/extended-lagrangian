@@ -1,0 +1,23 @@
+tt.2d0 0.0d0      # read(*,*)x(1:2) 
+10.d0 10.d0    # read(*,*)mass(1:2) 
+2.d0          # read(*,*)dt 
+100.0          # read(*,*)t0 
+100.0          # read(*,*)t0_s 
+.F.            # read(*,*)lang 
+0.001         # read(*,*)glang 
+0.001         # read(*,*)glang_s 
+.T.            # read(*,*)ext 
+.T.            # read(*,*)us 
+.T.            # read(*,*)meta 
+1.0           # read(*,*)k_s 
+50.d0 50.d0         # read(*,*)mass_s(1:2) 
+2.0d0           # read(*,*)umbr_k 
+-1.2d0           # read(*,*)umbr_mean 
+30000          # read(*,*)steps_max 
+1000            # read(*,*)freq_meta 
+0.000d0        # read(*,*)h0 
+0.05d0         # read(*,*)width 
+0.001         # read(*,*)wtdt !deltaT parameter in energy unit (a.u.) 
+10            #print frequency of trajectory
+.F.           # restrat
+0             #nmts
